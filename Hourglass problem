@@ -16,13 +16,6 @@ Each of the 6 lines of inputs arr[i]  contains 6 space-separated integers arr[i]
 
 
 
-
-
-
-
-
-
-
 #include <assert.h>
 #include <limits.h>
 #include <math.h>
@@ -36,6 +29,10 @@ Each of the 6 lines of inputs arr[i]  contains 6 space-separated integers arr[i]
 char* readline();
 char** split_string(char*);
 
+
+
+
+//Function starts
 // Complete the hourglassSum function below.
 int hourglassSum(int arr_rows, int arr_columns, int** arr) {
     int sum;
@@ -67,6 +64,11 @@ int hourglassSum(int arr_rows, int arr_columns, int** arr) {
     }
  return max_sum;
 }
+
+//Function ends
+
+
+
 
 int main()
 {
