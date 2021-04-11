@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main()
+{
+    int i,j,arr[20000],count,d,temp,result_count;
+    scanf("%d",&count);
+    scanf("%d",&d);
+    for(i=0;i<count;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<d;i++)
+    {   
+        temp=arr[0];
+        for(j=0;j<count;j++)
+        {
+            arr[j]=arr[j+1];
+            
+            
+            
+        }
+            
+            
+            arr[count-1]=temp;
+        
+        result_count++;
+    }
+    for(i=0;i<count;i++)
+    {
+        printf("%d ",arr[i]);
+    }
+    return 0; 
+}
